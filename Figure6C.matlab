@@ -5,7 +5,7 @@ clear all
 for i=0:8
     if i<9
     %only using the red c blue channel  
-       filenamer= strcat('Image 46_z00', int2str(i+1),'_c001'); %a=imread('ko-1,0.jpg')
+       filenamer= strcat('Image 46_z00', int2str(i+1),'_c001'); 
        filenameb= strcat('Image 46_z00', int2str(i+1),'_c002');
     else
        filenamer= strcat('Image 43_z0', int2str(i+1),'_c001');
@@ -22,7 +22,7 @@ for i=0:8
     
     [height,width]=size(ar2)
     
-    %restore the image
+    %store the image
     imageStackr(i+1,:,:) = ar2
     imageStackb(i+1,:,:) = ab2
 
