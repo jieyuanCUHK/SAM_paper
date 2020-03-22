@@ -17,7 +17,7 @@ Code for Figure 6E and Suppl Fig 6D: quantify the mean green channel intensity i
 Code for Figure 6E and Suppl Fig 6D: store the final output image.
 
 ## 6. ImageCount software
-<div align=center><img height="500" src="https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_introduction.png"/></div><br>
+<div align=center><img height="300" src="https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_introduction.png"/></div><br>
 
 Interative software used for easily quantifying Collagen 1 in Dia muscle Collagen staining images and Collagen positive areas in Masson's Trichrome staining on Dia muscles. 
 More detailed explanation on the four functions:
