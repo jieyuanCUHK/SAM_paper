@@ -1,5 +1,6 @@
 Code for the manuscript "Image processing code for the manuscript "Long noncoding RNA SAM promotes myoblast proliferation through stablizing Sugt1 and facilitating kinetochore assembly"
 ===
+All code here are tested in Matlab R2014b.
 
 ## 1. Figure6C.matlab
 Code for Figure 6C: calculate the mean non-zero pixel intensity in the red channel and store the output image finally.
@@ -40,3 +41,5 @@ This function is used in Figure 3J in the manuscript.
 
 #### (4) Images without regions to eliminate
 Similar with (3), but do not include the interstitial region elimination step.
+
+Please notice that you need to install the MATLAB Compiler Runtime (MCR) online using "MyAppInstaller_web.exe" if you do not have it deposited in your computer.
