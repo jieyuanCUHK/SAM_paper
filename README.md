@@ -42,4 +42,4 @@ This function is used in Figure 3J in the manuscript.
 #### (4) Images without regions to eliminate
 Similar with (3), but do not include the interstitial region elimination step.
 
-Please notice that you need to install the MATLAB Compiler Runtime (MCR) online using "MyAppInstaller_web.exe" if you do not have it deposited in your computer.
+###Please notice that you need to install the MATLAB Compiler Runtime (MCR) online using "MyAppInstaller_web.exe" if you do not have it deposited in your computer.
