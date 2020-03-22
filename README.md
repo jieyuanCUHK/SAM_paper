@@ -21,9 +21,9 @@ Interative software used for easily quantifying Collagen 1 in Dia muscle Collage
 More detailed explanation on the four functions:
 
 
-<div align=center><img height="150" src="https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_mainfunctions.png"/></div><br>
+<div align=center><img height="500" src="https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_mainfunctions.png"/></div><br>
 
-&nbsp&nbspMain functions in ImageCount
+<div style="font-color: blue" align=center>Main functions in ImageCount</div>
 
 #### (1) Color image with region to eliminate
 Can conduct Collagen 1 quantification in Dia muscle Collagen staining images. Firstly remove the possible very large interstitial regions (black regions) in the image, 
