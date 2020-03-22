@@ -20,7 +20,8 @@ Code for Figure 6E and Suppl Fig 6D: store the final output image.
 Interative software used for easily quantifying Collagen 1 in Dia muscle Collagen staining images and Collagen positive areas in Masson's Trichrome staining on Dia muscles. 
 More detailed explanation on the four functions:
 
-![Main functions of ImageCount](https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_mainfunctions.png)
+![](https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_mainfunctions.png)
+Main functions in ImageCount
 
 #### (1) Color image with region to eliminate
 Can conduct Collagen 1 quantification in Dia muscle Collagen staining images. Firstly remove the possible very large interstitial regions (black regions) in the image, 
