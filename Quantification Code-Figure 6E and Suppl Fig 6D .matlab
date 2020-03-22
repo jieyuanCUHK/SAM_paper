@@ -1,5 +1,4 @@
-%quantification code for Figure 6E and Suppl Fig 6D: merge and count green signal, i.e.
- the average intensity of each filtered dot.
+%quantification code for Figure 6E and Suppl Fig 6D: count green signal, i.e. the average intensity of each filtered dot.
 clear all
 
 for i = 0:11
