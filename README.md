@@ -17,17 +17,17 @@ Code for Figure 6E and Suppl Fig 6D: quantify the mean green channel intensity i
 Code for Figure 6E and Suppl Fig 6D: store the final output image.
 
 ## 6. ImageCount software
+<div align=center><img height="500" src="https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_introduction.png"/></div><br>
+
 Interative software used for easily quantifying Collagen 1 in Dia muscle Collagen staining images and Collagen positive areas in Masson's Trichrome staining on Dia muscles. 
 More detailed explanation on the four functions:
 
-
 <div align=center><img height="500" src="https://github.com/jieyuanCUHK/SAM_paper/raw/master/ImageCount_mainfunctions.png"/></div><br>
-
 <div style="font-color: blue" align=center>Main functions in ImageCount</div>
 
 #### (1) Color image with region to eliminate
 Can conduct Collagen 1 quantification in Dia muscle Collagen staining images. Firstly remove the possible very large interstitial regions (black regions) in the image, 
-then count the percentage of pixels that brighter than an automatically-defined threshold (decided by graythresh() function) in the green channel.
+then count the percentage of pixels that brighter than an automatically-defined threshold (decided by graythresh() function) in the green channel. The results will be included in "celldata.txt".
 This function is used in Figure 3I in the manuscript.
 
 #### (2) Color image without region to eliminate
@@ -35,7 +35,8 @@ Similar with (1), but do not include the interstitial region elimination step.
 
 #### (3) Images with region to eliminate
 Can conduct Collagen positive area quantification in Dia muscle Masson's Trichrome staining images. Firstly remove the possible very large interstitial regions (white regions) in the image, 
-then count the percentage of pixels that brighter than an automatically-defined threshold (decided by graythresh() function) in the blue channel.
+then count the percentage of pixels that brighter than an automatically-defined threshold (decided by graythresh() function) in the blue channel. The results will be included in "celldata.txt".
 This function is used in Figure 3J in the manuscript.
 
 #### (4) Images without regions to eliminate
+Similar with (3), but do not include the interstitial region elimination step.
