@@ -1,4 +1,4 @@
-%code for Figure 6C: calculate the mean non-zero pixel intensity in the red channel
+%code for Suppl Figure 6C: calculate the mean non-zero pixel intensity in the red channel
 
 clear all
 %read in images:
